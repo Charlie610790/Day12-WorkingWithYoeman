@@ -14,11 +14,12 @@ body {
 .examplefield {
     display: inline-block;
     float: left;
-    margin-left:100px;
-    margin-top:100px;
-    margin-bottom:100px;
-    margin-right: 100px;
-    width: 300px;
+    margin-left:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right: 20px;
+    width: 260px;
+    height: 400px;
     font-size: 18px;
     font-weight: 200;
     line-height: 30px;
@@ -28,7 +29,7 @@ body {
     padding-top: 10px;
 
     h1 {
-        font-size: 60px;
+        font-size: 50px;
         line-height: 1;
         letter-spacing: -1px;
     }
@@ -44,14 +45,15 @@ body {
 
 .example1 {
     position: relative;
-    background: red;
+    background: #92a3b0;
     height: 150px;
     width: 250px;
 }
 
-.example1txt {
+.exampletxt {
     font-size: 14px;
     line-height: 16px;
+    min-height: 64px;
 }
 
 .example1button {
@@ -85,4 +87,573 @@ body {
     -moz-filter: brightness(80%);
     -o-filter: brightness(80%);
     filter: brightness(80%);
+}
+
+.example2 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.example3 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+}
+
+.example4 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+}
+
+.example5 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+}
+
+.example6 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+}
+
+.example7 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+}
+
+.example8 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+}
+
+.example9 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+}
+
+.example10 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+}
+
+.example11 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+}
+
+.example12 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+}
+
+.example13 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+}
+
+.example14 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+}
+
+.example15 {
+    position: relative;
+    background: #92a3b0;
+    height: 150px;
+    width: 250px;
+}
+
+.example2button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example2button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example2button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example3button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example3button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example3button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example4button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example4button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example4button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example5button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example5button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example5button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example6button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example6button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example6button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example7button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example7button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example7button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example8button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example8button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example8button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example9button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example9button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example9button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example10button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example10button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example10button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example11button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example11button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example11button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example12button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example12button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example12button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example13button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example13button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example13button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example14button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example14button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example14button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example15button {
+    display: block;
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(89,89,89,1) 100%); 
+    width: 230px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: white;
+    font-family: helvetica;
+    text-shadow: 0px -1px 0px black;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.example15button:hover {
+
+    -webkit-filter: brightness(120%); 
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    filter: brightness(120%);
+}
+
+.example15button:active {
+    -webkit-filter: brightness(80%); 
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.example2extraclass {
+    background: #000000;
+    border-width: 10px;
 }
