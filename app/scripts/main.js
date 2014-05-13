@@ -91,3 +91,37 @@ $('.example8button').click(function() {
   $('.yankees').empty();
 });
 // EXAMPLE 8 END
+
+// EXAMPLE 9 BEGIN
+$('.example9button').click(function() {
+  $('.example9').hide("slow").delay(3600);
+});
+$('.example9button').click(function() {
+  $('.example9').show("slow");
+});
+// EXAMPLE 9 END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
