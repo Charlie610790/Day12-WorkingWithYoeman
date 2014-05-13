@@ -85,3 +85,9 @@ $('.example7button').mouseout(function() {
     left: "-=50"}).delay (1800);
     });
 // EXAMPLE 7 END
+
+// EXAMPLE 8 BEGIN
+$('.example8button').click(function() {
+  $('.yankees').empty();
+});
+// EXAMPLE 8 END
