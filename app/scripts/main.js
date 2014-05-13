@@ -70,7 +70,18 @@ $('.example6button').click(function() {
     left: "+=50"});
 });
 $('.example6button').mouseout(function() {
-  	 $(this).siblings('.example6').animate({opacity: 0.5,
+  	 $(this).siblings('.example6').animate({opacity: 1,
     left: "-=50"});
     });
 // EXAMPLE 6 END
+
+// EXAMPLE 7 BEGIN
+$('.example7button').click(function() {
+  $(this).siblings('.example7').animate({opacity: 0.5,
+    left: "+=50"}).delay (1800);
+});
+$('.example7button').mouseout(function() {
+     $(this).siblings('.example7').animate({opacity: 1,
+    left: "-=50"}).delay (1800);
+    });
+// EXAMPLE 7 END
