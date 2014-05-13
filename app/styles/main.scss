@@ -15,7 +15,7 @@ body {
     display: inline-block;
     float: left;
     margin-left:20px;
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom:20px;
     margin-right: 20px;
     width: 260px;
@@ -105,6 +105,10 @@ body {
     background: #92a3b0;
     height: 150px;
     width: 250px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .example4 {
@@ -653,7 +657,10 @@ body {
     filter: brightness(80%);
 }
 
-.example2extraclass {
-    background: #000000;
-    border-width: 10px;
+.example3extraclass {
+    background: #cacaca; 
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
