@@ -1,3 +1,5 @@
+'use strict';
+
 // EXAMPLE 1 BEGIN
 $('.example1button').click(function() {
 	$(this).siblings('.example1').text('Throw Text On Image');
