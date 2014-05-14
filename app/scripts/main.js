@@ -115,3 +115,9 @@ $('.example15button').click(function() {
   $('.prevTwo').prev().css("background", $(this).val() + "#89b0ce");
 });
 // EXAMPLE 15 END
+
+// // EXAMPLE 16 BEGIN
+// $('.example16button').click(function() {
+//   $(this).slideUp(2000);
+// });
+// // EXAMPLE 16 END
