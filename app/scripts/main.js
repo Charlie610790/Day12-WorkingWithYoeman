@@ -1,22 +1,3 @@
-// $('.example1button').hover(function() {
-//     var item = items.map(function(item) 
-//   {
-//     return item.price;
-//   })
-
-//    $(this).addClass("contenthover");
-//    $(this).text("Title Goes Here");
-//    $(this).css("font-size", $(this).val() + "30px");
-//    $(this).css("text-align", $(this).val() + "right");
-
-// });
-
-// $('.box1').mouseout(function() {
-//   $(this).text("");
-// });
-//    $(this).append('<div style="background-image: url('+ clickitem.Images[1].url_170x135 +')" class="box1"></div>')
-
-
 // EXAMPLE 1 BEGIN
 $('.example1button').click(function() {
 	$(this).siblings('.example1').text('Throw Text On Image');
@@ -52,10 +33,6 @@ $('.example3button').mouseout(function() {
 $('.example4button').click(function() {
 	$('.go').after('Red Sox');
 });
-
-// $('.example4button').mouseout(function() {
-//   	$(this).siblings('.example4').text('Go');
-// });
 // EXAMPLE 4 END
 
 // EXAMPLE 5 BEGIN
@@ -136,24 +113,3 @@ $('.example15button').click(function() {
   $('.prevTwo').prev().css("background", $(this).val() + "#89b0ce");
 });
 // EXAMPLE 15 END
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
