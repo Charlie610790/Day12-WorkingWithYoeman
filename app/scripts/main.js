@@ -101,8 +101,23 @@ $('.example9button').click(function() {
 });
 // EXAMPLE 9 END
 
+// EXAMPLE 10 BEGIN
+$('.example10button').click(function() {
+  $('.example10').not(".colorgreen").css( "background", "red");
+});
+// EXAMPLE 10 END
 
+// EXAMPLE 11 BEGIN
+$('.example11button').click(function() {
+  $('.example11').prepend('<b>Hello</b>');
+});
+// EXAMPLE 11 END
 
+// EXAMPLE 12 BEGIN
+$('.example12button').click(function() {
+  $('.example12').remove();
+});
+// EXAMPLE 12 END
 
 
 
