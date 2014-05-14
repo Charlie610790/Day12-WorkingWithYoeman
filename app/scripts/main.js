@@ -125,6 +125,17 @@ $('.example13button').click(function() {
 });
 // EXAMPLE 13 END
 
+// EXAMPLE 14 BEGIN
+$('.example14button').click(function() {
+  $('.example14inside').parent('.example14').css("background", $(this).val() + "#89b0ce");
+});
+// EXAMPLE 14 END
+
+// EXAMPLE 15 BEGIN
+$('.example15button').click(function() {
+  $('.prevTwo').prev().css("background", $(this).val() + "#89b0ce");
+});
+// EXAMPLE 15 END
 
 
 
