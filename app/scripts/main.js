@@ -119,6 +119,12 @@ $('.example12button').click(function() {
 });
 // EXAMPLE 12 END
 
+// EXAMPLE 13 BEGIN
+$('.example13button').click(function() {
+  $('.example13').children('.child').css("background", $(this).val() + "#89b0ce");
+});
+// EXAMPLE 13 END
+
 
 
 
