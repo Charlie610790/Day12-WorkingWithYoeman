@@ -21,3 +21,18 @@ This assignment was to create a site using 15 examples of JQuery.  This was a gr
 .prev<BR>
 
 This was also a great learning experience as I got to use Yoeman and webapp to build and develop the page.
+
+Tools Used:<BR>
+JQuery, HTML, CSS<BR>
+
+Below is a screen shot of the page designed.<BR>
+
+![Picture](https://cloud.githubusercontent.com/assets/7440065/3435721/7bb80c3c-0098-11e4-92be-bfb7a96c705f.png)
+
+Link to the screenshot:<BR>
+https://cloud.githubusercontent.com/assets/7440065/3435721/7bb80c3c-0098-11e4-92be-bfb7a96c705f.png
+
+
+
+
+
