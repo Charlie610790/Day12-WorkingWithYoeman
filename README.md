@@ -22,6 +22,9 @@ This assignment was to create a site using 15 examples of JQuery.  This was a gr
 
 This was also a great learning experience as I got to use Yoeman and webapp to build and develop the page.
 
+Below is a link to the live page:<BR>
+http://charlie610790.github.io/Day12-WorkingWithYoeman/
+
 Tools Used:<BR>
 JQuery, HTML, CSS<BR>
 
